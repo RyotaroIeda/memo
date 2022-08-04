@@ -30,4 +30,6 @@ require "csv"
     CSV.open("#{file_name}.csv","a") do |csv|
       csv << ["#{memo}"]
     end
+  else
+    puts "エラーが発生しました"
   end
